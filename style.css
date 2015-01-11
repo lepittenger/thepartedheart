@@ -11,6 +11,9 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+.site-branding img {
+	margin-bottom: 10px;
+}
 .entry-header .entry-title a,
 .entry-header .entry-title {
 	color: #000;
@@ -20,4 +23,12 @@
 	font-family: Georgia;
 	font-size: 18px;
 	font-size: 1.8rem;
+}
+
+.hentry .entry-format a:before {
+	content: "";
+}
+.hentry .entry-format a {
+	background: url('images/icon.png') no-repeat center center;
+	border: 0;
 }
