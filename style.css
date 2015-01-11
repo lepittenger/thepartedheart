@@ -1,0 +1,23 @@
+/*
+ Theme Name:   The Parted Heart
+ Description:  Minnow Child
+ Author:       Lauren Pittenger
+ Author URI:   http://laurenpittenger.com
+ Template:     minnow
+ Version:      1.0.0
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.entry-header .entry-title a,
+.entry-header .entry-title {
+	color: #000;
+}
+
+.entry-content, .entry-summary {
+	font-family: Georgia;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
