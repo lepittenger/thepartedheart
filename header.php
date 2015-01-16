@@ -26,7 +26,7 @@
 	<header id="masthead" class="site-header" role="banner">
 
 		<div class="site-branding">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png"></a>
 			<?php if ( function_exists( 'jetpack_the_site_logo' ) ) : ?>
 				<?php jetpack_the_site_logo(); ?>
 			<?php endif; ?>
