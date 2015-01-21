@@ -10,9 +10,20 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-
-.site-branding img {
-	margin-bottom: 10px;
+.site-header {
+	background: url('images/crossword.png');
+	background-position: fixed;
+}
+.site-title {
+	margin-bottom: 0.175em;
+}
+.site-description {
+	font-size: 17px;
+	font-family: "Georgia";
+	text-transform: none;
+	font-style: italic;
+	display: block;
+	margin-bottom: 1em;
 }
 .entry-header .entry-title a,
 .entry-header .entry-title {
@@ -31,4 +42,10 @@
 .hentry .entry-format a {
 	background: url('images/icon.png') no-repeat center center;
 	border: 0;
+}
+
+@media screen and (min-width: 35em) {
+	.site-header {
+		padding-top: 2.5em;
+	}
 }
