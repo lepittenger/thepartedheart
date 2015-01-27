@@ -10,9 +10,22 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+a {
+	text-decoration: none;
+	border-bottom: 1px dotted rgba(119, 119, 119, 0.6);
+}
+a.img {
+	border-bottom: 0;
+}
+.site-branding a,
+.site-title a,
+.entry-title a,
+.entry-meta a {
+	border-bottom: 0;
+}
 .site-header {
 	background: url('images/crossword.png');
-	background-position: fixed;
+	background-attachment: fixed;
 }
 .site-title {
 	margin-bottom: 0.175em;
@@ -42,6 +55,22 @@
 .hentry .entry-format a {
 	background: url('images/icon.png') no-repeat center center;
 	border: 0;
+}
+.archivedate {
+	margin-bottom: 20px;
+	display: inline-block;
+	font-size: 0.8em;
+}
+.h4 {
+	font-size: 1.3em;
+}
+.tags-links a {
+	background: #000;
+	color: #fff;
+	padding: 3px;
+	margin-bottom: 5px;
+	display: inline-block;
+	word-break: initial;
 }
 
 @media screen and (min-width: 35em) {
