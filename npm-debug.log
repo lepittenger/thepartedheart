@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'init' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.32
+4 silly package data undefined
+5 info init written successfully
+6 verbose stack Error: Invalid name: "The Parted Heart"
+6 verbose stack     at ensureValidName (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:315:15)
+6 verbose stack     at Object.module.exports.fixNameField (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:204:5)
+6 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:30:38
+6 verbose stack     at Array.forEach (native)
+6 verbose stack     at normalize (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:29:15)
+6 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:342:33)
+6 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
+6 verbose stack     at serverjs_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:176:43)
+6 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:172:33
+6 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:16:25)
+7 verbose cwd /Applications/MAMP/htdocs/thepartedheart/wp-content/themes/thepartedheart
+8 error Darwin 14.0.0
+9 error argv "node" "/usr/local/bin/npm" "init"
+10 error node v0.10.32
+11 error npm  v2.0.0
+12 error Invalid name: "The Parted Heart"
+13 error If you need help, you may report this error at:
+13 error     <http://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]

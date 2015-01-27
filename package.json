@@ -1,0 +1,27 @@
+{
+  "name": "thepartedheart",
+  "version": "1.0.0",
+  "description": "The Parted Heart blog theme",
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-ftp-deploy": "^0.1.9"
+  },
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lepittenger/thepartedheart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lepittenger/thepartedheart/issues"
+  },
+  "homepage": "https://github.com/lepittenger/thepartedheart"
+}
